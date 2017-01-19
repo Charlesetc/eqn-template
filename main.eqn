@@ -1,0 +1,34 @@
+
+.TITLE "Math Title"
+.FOOTERS
+.FOOTER_ON_FIRST_PAGE
+.FOOTER_RIGHT "Your Name"
+.FOOTER_LEFT "Something Cool"
+
+\# Stylesheet section
+.PRINTSTYLE TYPESET
+.START
+.EQ
+include "bindings.eqn"
+.EN
+
+\# Content
+\*[BOLDER]Problem 1.\*[BOLDERX]
+
+.EQ
+( b sup { n - 1 } a sup 0 + cdots + b sup 0 a sup { n - 1 } ) ( b - a ) mark
+= ( b sup n a sup 0 + cdots + b sup 1 a sup { n - 1 } ) - ( b sup { n - 1 } a sup 1 + cdots + b sup 0 a sup n )
+.EN
+.sp -2m
+.EQ
+lineup
+= ( b sup n a sup 0 - b sup 0 a sup n ) + (b sup { n - 1 } a sup 1 + cdots b sup 1 a sup { n - 1 }) -  (b sup { n - 1 } a sup 1 + cdots b sup 1 a sup { n - 1 })
+.EN
+.sp -1.5m
+.EQ
+lineup
+= b sup n - a sup n
+.EN
+
+I know that `forall x subset Y exists { y element B } over x sup y therefore emptyset notelement J`.
+This isn't a full proof, but it could be!

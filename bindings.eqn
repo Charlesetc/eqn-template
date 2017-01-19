@@ -1,0 +1,21 @@
+define squared %sup 2%
+define smover %smallover%
+define emdash %\[em]%
+define endash %\[en]%
+define exists %type "operator" \[te]%
+define forall %type "operator" \[fa]%
+define suchthat %type "operator" \[st]%
+define angleleft %type "opening" \[la]%
+define angleright %type "closing" \[ra]%
+define arrowboth %type "binary" \[<>]%
+define implies %type "binary" \[rA]%
+define qed %\0\0\[sq]%
+define therefore %type "operator" \[tf]%
+define divide %type "binary" \[di]%
+define emptyset %\[es]%
+define element %type "binary" \[mo]%
+define notelement %type "binary" \[nm]%
+define subset %type "binary" \[sb]%
+define notsubset %type "binary" \[nb]%
+define reflexsubset %type "binary" \[ib]%
+define hspace %~~~~%
